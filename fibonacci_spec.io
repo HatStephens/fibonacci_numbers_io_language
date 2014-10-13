@@ -22,6 +22,11 @@ it(
 )
 
 it(
+	"Should know the fifth Fibonacci Number is 3",
+	assertEquals(Fib request(5), 3)
+)
+
+it(
 	"Should know the tenth Fibonacci Number is 34",
 	assertEquals(Fib request(10), 34)
 )
